@@ -3,16 +3,16 @@
 const refineData = [
   // 等級, 裝備累積量, 神金累積量, zeny累積量
   { level: 5, equip: 1, ore: 5, zeny: 100000 },
-  { level: 6, equip: 2, ore: 10, zeny: 220000 },
-  { level: 7, equip: 3, ore: 15, zeny: 470000 },
-  { level: 8, equip: 4, ore: 25, zeny: 910000 },
-  { level: 9, equip: 6, ore: 50, zeny: 1630000 },
-  { level: 10, equip: 10, ore: 85, zeny: 2740000 },
-  { level: 11, equip: 22, ore: 135, zeny: 4875000 },
-  { level: 12, equip: 30, ore: 225, zeny: 9000000 },
-  { level: 13, equip: 45, ore: 375, zeny: 14500000 },
-  { level: 14, equip: 69, ore: 600, zeny: 24500000 },
-  { level: 15, equip: 98, ore: 900, zeny: 42000000 },
+  { level: 6, equip: 3, ore: 15, zeny: 320000 },
+  { level: 7, equip: 6, ore: 30, zeny: 790000 },
+  { level: 8, equip: 10, ore: 55, zeny: 1700000 },
+  { level: 9, equip: 16, ore: 105, zeny: 3330000 },
+  { level: 10, equip: 26, ore: 190, zeny: 6070000 },
+  { level: 11, equip: 48, ore: 325, zeny: 11320000 },
+  { level: 12, equip: 78, ore: 550, zeny: 20320000 },
+  { level: 13, equip: 123, ore: 925, zeny: 34820000 },
+  { level: 14, equip: 192, ore: 1525, zeny: 59320000 },
+  { level: 15, equip: 290, ore: 2425, zeny: 101320000 },
 ];
 
 const levelSelect = document.getElementById("targetLevel");
