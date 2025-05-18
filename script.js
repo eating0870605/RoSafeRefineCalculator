@@ -51,12 +51,12 @@ function calculate() {
     <p>神金總價：${oreTotal.toLocaleString()} Zeny</p>
     <p>Zeny總價：${zenyTotal.toLocaleString()} Zeny</p>
     <hr />
-    <p><strong>總價：約 ${grandTotal.toLocaleString()} Zeny</strong></p>
+    <p><strong>總價： ${grandTotal.toLocaleString()} Zeny</strong></p>
 
     <h3>詳細表格：</h3>
     <table border="1" cellspacing="0" cellpadding="5">
       <tr>
-        <th>精煉等級</th><th>裝備累積量</th><th>神金累積量</th><th>Zeny累積量</th><th>累積總價</th>
+        <th>精煉等級</th><th>裝備總量</th><th>神金總量</th><th>Zeny總量</th><th>累積總價</th>
       </tr>
       ${refineData.filter(d => d.level >= start && d.level <= target).map(d => {
         const eTotal = d.equip * equipPrice;
