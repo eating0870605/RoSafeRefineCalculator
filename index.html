@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>RO 安全精煉計算器</title>
+</head>
+<body>
+  <h1>RO 安全精煉計算器</h1>
+
+  <label for="startLevel">起始等級：</label>
+  <select id="startLevel"></select>
+
+  <label for="targetLevel">目標等級：</label>
+  <select id="targetLevel"></select>
+
+  <br><br>
+
+  <label for="equipPrice">裝備單價：</label>
+  <input id="equipPrice" type="number" value="1000000">
+
+  <label for="orePrice">神金單價：</label>
+  <input id="orePrice" type="number" value="25000">
+
+  <button onclick="calculate()">計算</button>
+
+  <div id="result" style="margin-top: 20px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
