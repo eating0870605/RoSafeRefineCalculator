@@ -2,6 +2,7 @@
 // 精煉資料表
 const refineData = [
   // 等級, 裝備累積量, 神金累積量, zeny累積量
+  { level: 4, equip: 0, ore: 0, zeny: 0 },
   { level: 5, equip: 1, ore: 5, zeny: 100000 },
   { level: 6, equip: 3, ore: 15, zeny: 320000 },
   { level: 7, equip: 6, ore: 30, zeny: 790000 },
@@ -18,7 +19,7 @@ const refineData = [
 const levelSelect = document.getElementById("targetLevel");
 const startSelect = document.getElementById("startLevel");
 
-for (let i = 5; i <= 15; i++) {
+for (let i = 4; i <= 15; i++) {
   const option = document.createElement("option");
   option.value = i;
   option.text = `+${i}`;
