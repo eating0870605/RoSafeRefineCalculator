@@ -58,7 +58,6 @@ function calculate() {
       <tr>
         <th>精煉等級</th><th>裝備總量</th><th>神金總量</th><th>Zeny總量</th><th>累積總價</th>
       </tr>
-      // ${refineData.filter(d => d.level >= start && d.level <= target).map(d => {
       ${refineData.map(d => {
         const eTotal = d.equip * equipPrice;
         const oTotal = d.ore * orePrice;
